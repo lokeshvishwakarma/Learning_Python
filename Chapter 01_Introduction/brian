@@ -1,0 +1,15 @@
+#!/usr/local/bin/python
+print('The Bright Side ' + 'of Life...')
+
+
+
+'''the first line which appears to be a comment is called as Shebang line,
+when a comment such as the first line in this file appears,
+it’s special because the operating system uses it to find an
+interpreter for running the program code in the rest of the file.
+Also, note that this file is called simply brian, without the .py suffix used for the module
+file earlier. Adding a .py to the name wouldn’t hurt (and might help you remember that
+this is a Python program file), but because you don’t plan on letting other modules
+import the code in this file, the name of the file is irrelevant. If you give the file executable
+privileges with a chmod +x brian shell command, you can run it from the operating
+system shell as though it were a binary program:'''

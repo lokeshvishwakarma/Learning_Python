@@ -1,0 +1,6 @@
+The matrix is: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Column 1 elements are: [1, 4, 7]
+Addition of row 1 is: 6
+Addition of row 2 is: 15
+Addition of row 3 is: 24
+[6, 15, 24]

@@ -1,0 +1,5 @@
+Length of the string is:  4
+The string is:loki
+The string is: loki
+Now the string is: vishwakarmaloki
+Now the string is: vishwakarmaoki

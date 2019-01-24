@@ -1,0 +1,9 @@
+The string is: lokesh vishwakarma
+The offset is:  7
+After replacement the string is: lokesh premshankar vishwakarma
+['aaa', 'bbb', 'ccccc', 'dd']
+SPAM
+spam
+True
+pqr,abc, 123 , xyz and lmn
+spam, eggs, and SPAM!

@@ -1,0 +1,10 @@
+Items in the list are: [123, 'spam', 1.23, 'loki']
+Items in the concatenated list are: [123, 'spam', 1.23, 'loki', 56, 'abc', 'xyz']
+Items in the appended list are: [123, 'spam', 1.23, 'loki', 56, 'abc', 'xyz', 'NI']
+Deleted item is: loki
+Items in the list after deleting are: [123, 'spam', 1.23, 56, 'abc', 'xyz', 'NI']
+Items in the list after deleting are: [123, 'spam', 56, 'abc', 'xyz', 'NI']
+
+Items in the list are: ['bb', 'cc', 'aa']
+Items in the sorted list are: ['aa', 'bb', 'cc']
+Items in the reverse list are: ['cc', 'bb', 'aa']
