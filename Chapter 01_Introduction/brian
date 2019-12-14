@@ -1,8 +1,6 @@
 #!/usr/local/bin/python
 print('The Bright Side ' + 'of Life...')
 
-
-
 '''the first line which appears to be a comment is called as Shebang line,
 when a comment such as the first line in this file appears,
 it’s special because the operating system uses it to find an

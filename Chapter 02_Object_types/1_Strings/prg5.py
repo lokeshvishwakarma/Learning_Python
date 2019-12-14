@@ -1,13 +1,13 @@
 #!/usr/bin/python
 
-#Title: Getting help
-S='spam'
-d=dir(S)		#dir() simply gives the methods' names
-print('The list of method names are as follows:\n\n',d)
+# Title: Getting help
+S = 'spam'
+d = dir(S)  # dir() simply gives the methods' names
+print('The list of method names are as follows:\n\n', d)
 print('\n\n')
-h=help(S.replace)	#help on built-in function replace
+h = help(S.replace)  # help on built-in function replace
 
-print(S+' loki')
+print(S + ' loki')
 print(S.__add__(' loki'))
 '''The methods starting end ending with underscores represent
 the implementation of the string object.

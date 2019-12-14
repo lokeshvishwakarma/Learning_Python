@@ -1,1 +1,0 @@
-Items in the list are: [123, 'spam', 1.23, 'loki']

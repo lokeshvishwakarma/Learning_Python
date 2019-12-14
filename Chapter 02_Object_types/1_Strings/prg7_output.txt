@@ -1,8 +1,0 @@
-SpÄm
-SpÊm
-spÄm
-b'a\x01c'
-b'spam'
-b'\xff\xfes\x00p\x00a\x00m\x00'
-xy
-b'xy'

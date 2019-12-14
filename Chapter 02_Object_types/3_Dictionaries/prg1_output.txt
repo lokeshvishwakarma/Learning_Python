@@ -1,3 +1,0 @@
-{'food': 'spam', 'quantity': 6, 'color': 'pink'}
-spam
-quantity:  6

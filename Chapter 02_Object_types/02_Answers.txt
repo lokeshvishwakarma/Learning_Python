@@ -1,0 +1,32 @@
+1. Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered to be the
+core object (data) types. Types, None, and Booleans are sometimes classified this way as well.
+There are multiple number types (integer, floating point, complex, fraction, and decimal) and
+multiple string types (simple strings and Unicode strings in Python 2.X, and text strings and byte
+strings in Python 3.X).
+
+2. They are known as “core” types because they are part of the Python language itself and are
+always available; to create other objects, you generally must call functions in imported
+modules. Most of the core types have specific syntax for generating the objects: 'spam', for
+example, is an expression that makes a string and determines the set of operations that can be
+applied to it. Because of this, core types are hardwired into Python’s syntax. In contrast, you
+must call the built-in open function to create a file object (even though this is usually
+considered a core type too).
+
+3. An “immutable” object is an object that cannot be changed after it is created. Numbers, strings,
+and tuples in Python fall into this category. While you cannot change an immutable object in
+place, you can always make a new one by running an expression. Bytearrays in recent Pythons
+offer mutability for text, but they are not normal strings, and only apply directly to text if it’s a
+simple 8-bit kind (e.g., ASCII).
+
+4. A “sequence” is a positionally ordered collection of objects. Strings, lists, and tuples are all
+sequences in Python. They share common sequence operations, such as indexing, concatenation,
+and slicing, but also have type-specific method calls. A related term, “iterable,” means either a
+physical sequence, or a virtual one that produces its items on request.
+
+5. The term “mapping” denotes an object that maps keys to associated values. Python’s dictionary
+is the only mapping type in the core type set. Mappings do not maintain any left-to-right
+positional ordering; they support access to data stored by key, plus type-specific method calls.
+
+6. “Polymorphism” means that the meaning of an operation (like a +) depends on the objects being
+operated on. This turns out to be a key idea (perhaps the key idea) behind using Python well —
+not constraining code to specific types makes that code automatically applicable to many types.
