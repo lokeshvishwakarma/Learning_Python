@@ -13,5 +13,7 @@ print(rec['jobs'][-1])  # index the nested list
 rec['jobs'].append('Janitor')  # expand Bob's job description in place
 print(rec['jobs'])
 
+print(rec['name']['first'])
+
 rec = 0  # now the objects space is reclaimed
 print(rec)

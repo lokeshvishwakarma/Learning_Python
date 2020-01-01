@@ -14,3 +14,6 @@ print(T.count(4))  # count method returns the number of times a value occurs in 
 # T[0] = 2 # Tuples are immutable
 T = 'spam', 3.0, [11, 22, 33]  # the parentheses enclosing a tuple’s items can usually be omitted
 print(T)
+
+t = (2,)
+print(type(t))
