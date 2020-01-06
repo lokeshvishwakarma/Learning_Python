@@ -1,4 +1,10 @@
 # Bonus Python Libraries
 
-## Introduction to PySide2
+## PySide2
+
+## xlrd
+
+## Pillow
+
+## Flask
 
