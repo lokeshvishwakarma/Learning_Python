@@ -1,5 +1,5 @@
 """
-1. Open the exam.txt file withonly readd permission and store the contents in a list called
+1. Open the exam.txt file withonly read permission and store the contents in a list called
 exam_lines.
 """
 
