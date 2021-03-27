@@ -4,12 +4,12 @@
 Generators
 """
 
-G = (x ** 2 for x in range(999999999))
-print(G)
-print(G.__next__())
-print(G.__next__())
-print(G.__next__())
-print(G.__next__())
+# G = (x ** 2 for x in range(999999999))
+# print(G)
+# print(G.__next__())
+# print(G.__next__())
+# print(G.__next__())
+# print(G.__next__())
 
 
 def fibon(n):
@@ -21,8 +21,8 @@ def fibon(n):
     return result
 
 
-# n = int(input("Enter a number less than 50:"))
-# print("The first", n, "Fibonacci numbers are:", fibon(n))
+n = int(input("Enter a number less than 50:"))
+print("The first", n, "Fibonacci numbers are:", fibon(n))
 
 
 def fibon_g(n):
