@@ -3,7 +3,7 @@ import PySide2.QtWidgets as QtWidgets
 import PySide2.QtCore as QtCore
 
 
-class MyDialog(QtWidgets.QDialog):
+class MyDialog(QtWidgets.QWidget):
     def __init__(self, title):
         super(MyDialog, self).__init__()
         self.setWindowTitle(title)
@@ -50,6 +50,24 @@ class MyDialog(QtWidgets.QDialog):
         hbox_3.addWidget(self.submit_button)
         hbox_3.addWidget(self.cancel_button)
         main_layout.addLayout(hbox_3)
+
+        # connections
+        self.submit_button.clicked.connect(self.submit)
+        self.male_rad.clicked.connect(self.gendercheck)
+        self.female_rad.clicked.connect(self.gendercheck)
+        self.first_name.textChanged.connect(self.name)
+
+    def submit(self):
+        print("Submit Clicked!!")
+
+    def gendercheck(self):
+        if self.male_rad.isChecked():
+            print("Male selected")
+        elif self.female_rad.isChecked():
+            print("Female selected")
+
+    def name(self):
+        print(self.first_name.text())
 
 
 app = QtWidgets.QApplication(sys.argv)
