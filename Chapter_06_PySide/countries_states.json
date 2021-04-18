@@ -1,0 +1,18 @@
+{
+  "India": [
+    "Maharashtra",
+    "Punjab",
+    "Kerala",
+    "Karnataka"
+  ],
+  "USA": [
+    "California",
+    "Mexico",
+    "Washington"
+  ],
+  "Canada": [
+    "Toronto",
+    "Montreal",
+    "Vancouver"
+  ]
+}
